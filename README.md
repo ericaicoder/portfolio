@@ -1,6 +1,6 @@
 # Eric's Portfolio
 
-## About Me
+## About Me (Eric)[https://i-am-eric.com]
 I'm Eric, a passionate Full Stack Developer and Independent Software Developer with a love for creating innovative web solutions and applications. I specialize in building scalable web applications using modern technologies and best practices.
 
 ## Tech Stack
