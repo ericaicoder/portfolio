@@ -52,7 +52,7 @@ export const experiencesData = [
     title: "Senior iOS Engineer",
     location: "Beijing, China",
     description:
-      "I'm a K4 level senior iOS engineer working at Kuaishou. And I manage a team of 20 engineers including iOS, Android, Frontend and Backend.",
+      "I worked as a Senior iOS Engineer at Kuaishou (K4 level), where I managed a team of 20 engineers across iOS, Android, Frontend and Backend development.",
     icon: React.createElement(FaReact),
     date: "2018 - 2022",
   },
