@@ -1,6 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { FaBusinessTime } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import musiclubImg from "@/public/musiclub.png";
 
@@ -53,7 +53,7 @@ export const experiencesData = [
     location: "Beijing, China",
     description:
       "I worked as a Senior iOS Engineer at Kuaishou (K4 level), where I managed a team of 20 engineers across iOS, Android, Frontend and Backend development.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2018 - 2022",
   },
   {
@@ -61,7 +61,7 @@ export const experiencesData = [
     location: "1 person company",
     description:
       "I'm now running my own startup company.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaBusinessTime),
     date: "2022 - present",
   },
 ] as const;
