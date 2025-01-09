@@ -12,10 +12,10 @@ I'm Eric, a passionate Full Stack Developer and Independent Software Developer w
 
 ## Projects
 
-### Musiclub
-- The universal music playlist hub
-- Technologies used: React, Next.js, Tailwind CSS, PostgreSQL, Supabase
-- Link to live demo: https://musiclub.online/
+### ImageToPlaylist
+- Parse song information from image and generate a playlist by AI
+- Technologies used: React, Next.js, Tailwind CSS, Supabase
+- Link to live demo: https://imagetoplaylist.com/
 
 ## Experience
 - Full Stack Developer, Architecture Engineer at Kuaishou (2018-2022)

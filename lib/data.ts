@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaBusinessTime } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import musiclubImg from "@/public/musiclub.png";
+import imagetoplaylistImg from "@/public/imagetoplaylist.png";
 
 export const links = [
   {
@@ -68,11 +68,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Musiclub",
+    title: "ImageToPlaylist",
     description:
-      "Musiclub is a playlist hub where you can manage, share and discover music playlists for all platforms (Apple Music, Spotify, YouTube, etc).",
+      "Parse song information from image and generate a playlist by AI",
     tags: ["React", "Next.js", "Python", "Tailwind", "PostgreSQL", "Prisma"],
-    imageUrl: musiclubImg,
+    imageUrl: imagetoplaylistImg,
   },
 ] as const;
 
