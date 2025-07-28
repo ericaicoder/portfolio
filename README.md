@@ -10,6 +10,8 @@ I'm Eric, a passionate Full Stack Developer and Independent Software Developer w
 - **DevOps**: Docker, AWS, GCP, CI/CD
 - **Tools**: Git, VS Code, Postman, Cursor, Xcode
 
+aasdfa
+
 ## Projects
 
 ### ImageToPlaylist
