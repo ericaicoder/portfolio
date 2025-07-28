@@ -8,8 +8,7 @@ I'm Eric, a passionate Full Stack Developer and Independent Software Developer w
 - **Backend**: Node.js, Express, Python, GoLang, RESTful APIs
 - **Database**: PostgreSQL, MySQL, MongoDB
 - **DevOps**: Docker, AWS, GCP, CI/CD
-- **Tools**: Git, VS Code, Postman, Cursor, Xcode
-
+- **Tools**: Git, VS Code, Postman, Cursor, Xcodeasdfasdfasdfasdf
 aasdfa
 
 asdfas;dfkjas;dlkf
