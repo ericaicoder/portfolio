@@ -95,4 +95,5 @@ export const skillsData = [
   "SwiftUI",
   "AI Agent",
   "RAG",
+  "Vibe coding",
 ] as const;
