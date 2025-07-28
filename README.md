@@ -12,6 +12,8 @@ I'm Eric, a passionate Full Stack Developer and Independent Software Developer w
 
 aasdfa
 
+asdfas;dfkjas;dlkf
+
 ## Projects
 
 ### ImageToPlaylist
