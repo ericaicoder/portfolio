@@ -11,8 +11,6 @@ I'm Eric, a passionate Full Stack Developer and Independent Software Developer w
 - **Tools**: Git, VS Code, Postman, Cursor, Xcodeasdfasdfasdfasdf
 aasdfa
 
-asdfas;dfkjas;dlkf
-
 ## Projects
 
 ### ImageToPlaylist
