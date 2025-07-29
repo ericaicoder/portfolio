@@ -86,7 +86,6 @@ export const skillsData = [
   "Prisma",
   "Redux",
   "GraphQL",
-  "Express",
   "PostgreSQL",
   "Python",
   "Xcode",
@@ -96,4 +95,5 @@ export const skillsData = [
   "AI Agent",
   "RAG",
   "Vibe coding",
+  "Rust",
 ] as const;
