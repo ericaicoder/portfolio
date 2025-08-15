@@ -1,14 +1,16 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 import SubmitBtn from "./submit-btn";
 import toast from "react-hot-toast";
 import { sendEmail } from "@/actions/sendEmail";
+
 export default function Contact() {
   const { ref } = useSectionInView("Contact");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   return (
     <motion.section
@@ -41,14 +43,19 @@ export default function Contact() {
       <form
         className="mt-10 flex flex-col dark:text-black"
         action={async (formData) => {
-          const { error } = await sendEmail(formData);
+          setIsSubmitting(true);
+          try {
+            const { error } = await sendEmail(formData);
 
-          if (error) {
-            toast.error(error);
-            return;
+            if (error) {
+              toast.error(error);
+              return;
+            }
+
+            toast.success("Email sent successfully!");
+          } finally {
+            setIsSubmitting(false);
           }
-
-          toast.success("Email sent successfully!");
         }}
       >
         <input
@@ -66,7 +73,7 @@ export default function Contact() {
           required
           maxLength={5000}
         />
-        <SubmitBtn />
+        <SubmitBtn pending={isSubmitting} />
       </form>
     </motion.section>
   );
