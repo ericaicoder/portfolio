@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "npx @cloudflare/next-on-pages",
-    "preview": "npm run pages:build && npx wrangler pages dev",
-    "deploy": "npm run pages:build && npx wrangler pages deploy",
+    "pages:build": "pnpm exec next-on-pages",
+    "preview": "pnpm run pages:build && pnpm exec wrangler pages dev",
+    "deploy": "pnpm run pages:build && pnpm exec wrangler pages deploy",
     "start": "next start",
     "lint": "next lint"
   },
@@ -37,6 +37,7 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.13.13",
-    "@types/react-vertical-timeline-component": "^3.3.3"
+    "@types/react-vertical-timeline-component": "^3.3.3",
+    "wrangler": "^4.30.0"
   }
 }
