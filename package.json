@@ -5,13 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "pages:build": "pnpm exec next-on-pages",
-    "preview": "pnpm run pages:build && pnpm exec wrangler pages dev",
-    "deploy": "pnpm run pages:build && pnpm exec wrangler pages deploy",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@opennextjs/cloudflare": "^1.6.5",
     "@react-email/components": "^0.0.7",
     "@react-email/tailwind": "^0.0.8",
     "@types/node": "20.3.2",
@@ -36,7 +38,6 @@
     "typescript": "5.1.5"
   },
   "devDependencies": {
-    "@cloudflare/next-on-pages": "^1.13.13",
     "@types/react-vertical-timeline-component": "^3.3.3",
     "wrangler": "^4.30.0"
   }
