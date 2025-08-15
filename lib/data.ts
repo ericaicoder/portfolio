@@ -2,7 +2,6 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaBusinessTime } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import imagetoplaylistImg from "@/public/imagetoplaylist.png";
 import kidouImg from "@/public/kidou.png";
 
 export const links = [
@@ -68,13 +67,6 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "ImageToPlaylist",
-    description:
-      "Parse song information from image and generate a playlist by AI",
-    tags: ["React", "Next.js", "Python", "Tailwind", "PostgreSQL", "Prisma"],
-    imageUrl: imagetoplaylistImg,
-  },
   {
     title: "Kidou",
     description:
