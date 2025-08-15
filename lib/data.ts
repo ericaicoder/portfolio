@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaBusinessTime } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import imagetoplaylistImg from "@/public/imagetoplaylist.png";
+import kidouImg from "@/public/kidou.png";
 
 export const links = [
   {
@@ -60,7 +61,7 @@ export const experiencesData = [
     title: "Full-Stack Developer & Solo founder",
     location: "1 person company",
     description:
-      "I'm now running my own startup company.",
+      "I'm now running my own startup company. https://embodyai.co.jp",
     icon: React.createElement(FaBusinessTime),
     date: "2022 - present",
   },
@@ -73,6 +74,13 @@ export const projectsData = [
       "Parse song information from image and generate a playlist by AI",
     tags: ["React", "Next.js", "Python", "Tailwind", "PostgreSQL", "Prisma"],
     imageUrl: imagetoplaylistImg,
+  },
+  {
+    title: "Kidou",
+    description:
+      "Manage multiple code agents (Cursor, Claude, and more) in parallel. Orchestrate AI coding sessions with isolated context and 10X developer productivity.",
+    tags: ["React", "Next.js", "Electron", "Tailwind", "Drizzle"],
+    imageUrl: kidouImg,
   },
 ] as const;
 
